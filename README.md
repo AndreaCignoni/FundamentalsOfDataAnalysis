@@ -14,12 +14,12 @@ The *Collatz conjecture* is a famous unsolved problem in mathematics stating tha
 
 The function $f(x)$ is defined as follows:
 
-$ f(x) =
-\begin{cases}
-x/2 & \text{if } x \text{ is even} \\
-3x + 1 & \text{if } x \text{ is odd}
-\end{cases}
-$gitadd
+$f(x) =$
+$\begin{cases}$
+$x/2 & \text{if } x \text{ is even} \\$
+$3x + 1 & \text{if } x \text{ is odd}$
+$\end{cases}$
+$
 
 ### Example
 

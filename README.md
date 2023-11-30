@@ -19,7 +19,7 @@ $ f(x) =
 x/2 & \text{if } x \text{ is even} \\
 3x + 1 & \text{if } x \text{ is odd}
 \end{cases}
-$
+$gitadd
 
 ### Example
 

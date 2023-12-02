@@ -175,32 +175,69 @@ Please feel free to execute my *Jupyter notebook** to view the process and resul
 
 ### Task 1
 
-[Real Python](https://realpython.com/defining-your-own-python-function/)
-[Pythontutorial.net](https://www.pythontutorial.net/advanced-python/python-floor-division/)
+[Real Python](https://realpython.com/defining-your-own-python-function/)  
+
+- *Real Python* provides a tutorial on defining custom functions in Python, offering practical insights into function creation and usage.
+
+[Pythontutorial.net](https://www.pythontutorial.net/advanced-python/python-floor-division/)  
+
+- *Pythontutorial.net* explores the concept of floor division in advanced Python, offering a detailed guide on its implementation and significance.
 
 ### Task 2
 
-[mwaskom/seaborn-data Github](https://github.com/mwaskom/)
-[Pandas Official documentation](pandas.pydata.org)
-[realpython.com](https://realpython.com/pandas-dataframe/)
+[mwaskom/seaborn-data Github](https://github.com/mwaskom/)  
+
+- The *Palmer Penguin dataset* was downloaded from *GitHub* in raw format and then uploaded in my repository in *csv* format.
+
+[Pandas Official documentation](pandas.pydata.org)  
+
+- The official documentation for Pandas, a powerful data manipulation library in Python, serves as a comprehensive resource for understanding and utilizing Pandas functionalities.
+
+[realpython.com](https://realpython.com/pandas-dataframe/)  
+
+- *Real Python* offers an informative guide on working with Pandas DataFrames, covering various operations and techniques for effective data handling.
+
 [SparkByExamples.com](https://sparkbyexamples.com/pandas/get-pandas-dataframe-shape/)
-["A Grahic Primer"](https://mathbench.umd.edu/modules/visualization_graph/page02.htm#:~:text=Scientists%20like%20to%20say%20that,left%20side%2C%20vertical%20one)
+
+- *SparkByExamples.com* provides insights into obtaining the shape of a Pandas DataFrame, offering practical examples for data shape exploration.
+
+["A Grahic Primer"](https://mathbench.umd.edu/modules/visualization_graph/page02.htm#:~:text=Scientists%20like%20to%20say%20that,left%20side%2C%20vertical%20one)  
+
+- This resource, titled *"A Graphic Primer,"* provides foundational information on data visualization, emphasizing the importance of graphical representation in scientific contexts.
+
 [Laerd website](https://statistics.laerd.com/statistical-guides/types-of-variable.php/)
+
+- *Laerd*'s website likely provides a guide on different types of variables in statistics, aiding in a better understanding of variables used in data analysis.
 
 ### Task 3
 
-[Machine Learning & Simulation YouTube channel]( https://www.youtube.com/watch?v=421uW9aZHio)
-[ritvikmath YouTube channel]( https://www.youtube.com/watch?v=Dkc_hcVWDpA&t=3s)
+[Machine Learning & Simulation YouTube channel](https://www.youtube.com/watch?v=421uW9aZHio)  
+
+- This YouTube channel covers topics related to machine learning and simulation, with the linked video potentially focusing on a specific aspect of these fields.
+
+[ritvikmath YouTube channel]( https://www.youtube.com/watch?v=Dkc_hcVWDpA&t=3s)  
+
+- The *ritvikmath YouTube channel* presents educational content, and the linked video covers a particular topic in mathematics or computer science.
+
 [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/)
+
+- *Analytics Vidhya* provides insights into various probability distributions in data science, helping practitioners understand and apply these distributions in their analyses.
 
 ### Task 4
 
-[StatQuest with Josh Starmer Youtube channel](https://www.youtube.com/@statquest)
+[StatQuest with Josh Starmer Youtube channel](https://www.youtube.com/@statquest)  
+
+- The *StatQuest YouTube channel*, hosted by Josh Starmer, is a valuable resource for statistical concepts, offering clear explanations and visualizations for complex topics.
+
 [Entropy (for data science)lecture](https://www.youtube.com/watch?v=YtebGVx-Fxw)
+
+- The linked lecture on entropy, specifically tailored for data science, provides a detailed explanation of entropy's role and applications in the context of data analysis.
 
 ### Task 5
 
 [Seaborn official documentation](https://seaborn.pydata.org/generated/seaborn.countplot.html)
+
+- The official documentation for *Seaborn* introduces the countplot function, providing guidance on creating count plots for categorical data visualization using the *Seaborn* library.
 
 ***
 

@@ -26,7 +26,7 @@ My task was to verify, using Python, that the *Collatz conjecture* holds true fo
 
 ### Code devolepment
 
-In order to prove that the *Collatz conjecture* to be true, I have first defined a function *f(x)* implementing the mathematical calculation, then I have created the format how this same function operates in a variable named *collatz()* and, finally, I havee ncapsulated the iterative process within a loop using a another variable to prove the conjecture's validity for the first 100,000 positive integers.
+In order to prove that the *Collatz conjecture* to be true, I have first defined a function *f(x)* implementing the mathematical calculation, then I have created the format how this same function operates in a variable named *collatz()* and, finally, I have encapsulated the iterative process within a loop using a another variable to prove the conjecture's validity for the first 100,000 positive integers.
 
 ## Task 2: Overview of the Famous Penguins Dataset
 
@@ -40,9 +40,9 @@ The dataset typically includes the following variables:
 
 - **Species**: The species of the penguin: *Adelie*, *Chinstrap*, *Gentoo*.
 + **Island**: The islands where the penguins were observed: *Biscoe*, *Dream*, *Torgersen*.
-* **Bill Length (mm)**: The length of the penguin's bill in millimeters.
-- **Bill Depth (mm)**: The depth of the penguin's bill in millimeters.
-+ **Flipper Length (mm)**: The length of the penguin's flipper in millimeters.
+* **Bill Length (mm)**: The length of the penguin's bill in millimetres.
+- **Bill Depth (mm)**: The depth of the penguin's bill in millimetres.
++ **Flipper Length (mm)**: The length of the penguin's flipper in millimetres.
 * **Body Mass (g)**: The body mass of the penguin in grams.
 - **Sex**: The gender of the penguin: *male* and *female*.
 
@@ -52,9 +52,9 @@ The dataset typically includes the following variables:
 
 The dataset contains three categorical variables that are *species*, *islands* and *sex* where the first two can be considered as *nominal categorical variables* and the latter  a *nominal variable of the dichotomous type*.
 
-2. **Continous Variables**
+2. **Continuous Variables**
 
-*Bill Length (mm)*, *Bill Depth (mm)*, *Flipper Length (mm)*, *Body Mass (g)* are all continuous variables representing physical characteristics of the penguins. In the data set description, rhey were analyzed using Pandas' **describe()** function to provide summary statistics.
+*Bill Length (mm)*, *Bill Depth (mm)*, *Flipper Length (mm)*, *Body Mass (g)* are all continuous variables representing physical characteristics of the penguins. In the data set description, rhey were analysed using Pandas' **describe()** function to provide summary statistics.
 
 ## Task 3: Probability Distribution Modeling for Penguins Dataset Variables
 
@@ -69,19 +69,19 @@ The **Multinomial distribution** is suitable for the categorical variables *Spec
 + Sex:
 The **Binomial distribution** is chosen for the categorical variable *Sex,* which represents a binary outcome.
 * Bill Length, Bill Depth, Flipper Length:
-The observed bimodal pattern in the variables suggests the presence of distinct species within the dataset. Given the symmetric spread around the mean, a **Normal distribution** is chosen for modeling the first curve  of the *Bill Length* and both curves for the *Bill Depth* and the *Flipper Length*. The irregular second peak in the *Bill Length* variable is more appropriately modeled by a **Log-normal distribution** due to its specific characteristics.
+The observed bimodal pattern in the variables suggests the presence of distinct species within the dataset. Given the symmetric spread around the mean, a **Normal distribution** is chosen for modelling the first curve  of the *Bill Length* and both curves for the *Bill Depth* and the *Flipper Length*. The irregular second peak in the *Bill Length* variable is more appropriately modelled by a **Log-normal distribution** due to its specific characteristics.
 - Body Mass:
 The right-skewed histogram curves with elongated tails on the right side lead to the choice of a **log-normal distribution** for modeling the continuous variable *Body Mass.*
 
 ### Probability distributions examined
 
 - Categorical variables
-**Multinomial distribution** is often utilized with *categorical variables* where an experiment consists of multiple trials, and each trial can result in one of several mutually exclusive outcomes. While a **Binomial distribution** is a discrete probability distribution that models the number of successful outcomes in a fixed number of independent and identical *Bernoulli* trials. The outcome of one trial does not affect the outcome of another trial and the trials are assumed to be independent. 
-* Continunous variables
-For what concerns the *continuous variables*, the probability distribution considered are the **Normal distribution** and the **Log-normal distribution**. The **Normal distribution**, also known as the *Gaussian distribution* or *bell curve*, is one of the most important and widely used probability distributions in statistics. The *normal distribution* is symmetric, meaning that the left and right sides of the distribution are mirror images of each other and the *mean*, *median*, and *mode* are all located at the center of the distribution. The **Log-normal distribution** is defined for positive real numbers and represents a random variable whose logarithm is normally distributed. Its distribution is typically right-skewed, meaning that the tail on the right side is longer or fatter than the left side.
+**Multinomial distribution** is often utilised with *categorical variables* where an experiment consists of multiple trials, and each trial can result in one of several mutually exclusive outcomes. While a **Binomial distribution** is a discrete probability distribution that models the number of successful outcomes in a fixed number of independent and identical *Bernoulli* trials. The outcome of one trial does not affect the outcome of another trial and the trials are assumed to be independent. 
+* Continuous variables
+For what concerns the *continuous variables*, the probability distribution considered are the **Normal distribution** and the **Log-normal distribution**. The **Normal distribution**, also known as the *Gaussian distribution* or *bell curve*, is one of the most important and widely used probability distributions in statistics. The *normal distribution* is symmetric, meaning that the left and right sides of the distribution are mirror images of each other and the *mean*, *median*, and *mode* are all located at the centre of the distribution. The **Log-normal distribution** is defined for positive real numbers and represents a random variable whose logarithm is normally distributed. Its distribution is typically right-skewed, meaning that the tail on the right side is longer or fatter than the left side.
 
 ### Rationale
-Probability distributions are used to model variables because they provide a formal and mathematical way to describe and analyze the uncertainty associated with the same variables. Many real-world phenomena, such the measurements contained in the Palmer Penguin dataset, involve inherent randomness or variability and probability distributions provide a model through which it is possible to understand the randomness in data and predict outcomes. The chosen distributions aim to capture the underlying patterns and characteristics of each variable in the dataset.
+Probability distributions are used to model variables because they provide a formal and mathematical way to describe and analyse the uncertainty associated with the same variables. Many real-world phenomena, such the measurements contained in the Palmer Penguin dataset, involve inherent randomness or variability and probability distributions provide a model through which it is possible to understand the randomness in data and predict outcomes. The chosen distributions aim to capture the underlying patterns and characteristics of each variable in the dataset.
 
 ## Task 4: Probability, Expected Values, Surprise, and Entropy
 
@@ -134,15 +134,32 @@ This represents the entropy of the total number of heads when flipping two coins
 
 ### Python code implementation
 
-The visual representation of the fenomena discussed has been plotted developping the concepts discussed as follows:
+The visual representation of the phenomena discussed has been plotted developping the concepts discussed as follows:
 
 - Probability Values: The probability of getting heads $(p)$ has been defined using the **NumPy linspace function**. The code generates a range of probabilities from a very small positive value (0.00000001) to a very close value to 1 (0.99999999) with fine-grained granularity (1001 values).
 + Entropy Calculation: For each probability $(p)$ in the range, the code calculates the entropy of the total number of heads resulting from two coin flips defining the probabilities of getting 0, 1, or 2 heads and then applying the entropy formula.
 * Data Collection: The calculated entropy values for different probabilities are collected in an array.
 - Plotting: The **Matplotlib library** is used to plot the entropy values against the corresponding probabilities. The *x-axis* represents the probability of getting heads $(p)$, and the *y-axis* represents the calculated entropy.
-+ Visualization: The resulting plot visually illustrates how the entropy of the total number of heads changes as the probability $(p)$ varies.
++ Visualisation: The resulting plot visually illustrates how the entropy of the total number of heads changes as the probability $(p)$ varies.
 
+## Task 5: Visualization of Palmer Penguin Variables using Seaborn
 
+In Task 5, the Palmer penguin dataset was visualised using *Seaborn* to gain insights into the distribution of variables. The following visualizations were created:
+
+- Species Distribution:
+A single bar plot using **sns.countplot** was generated for the **Species** variable. The visualisation revealed that the *Adelie* species has the highest representation, followed by *Gentoo*, while *Chinstrap* has the lowest number of samples in the dataset.
++ Species Distribution across Islands:
+A bar plot using **sns.countplot** illustrated the distribution of penguin *species* across each island (**Island** variable). The analysis highlighted that the *Adelie* species inhabits all three islands, *Gentoo* is exclusive to *Biscoe* island, and *Chinstrap* is found solely on *Dream* island.
+* Sex Distribution across Species:
+Another bar plot using **sns.countplot** was employed to visualise the **Sex** distribution across different penguin *species*. The observation indicated almost equal representation of both genders within each species.
+- Pair Plot for Continuous Variables:
+A pair plot was generated for continuous variables (**bill length**, **bill depth**, **flipper length**, and **body mass**). Distinctions among the three penguin species are more pronounced when each variable is plotted against the common variable of *bill length*.
+
+### Insights
+
+The visualisations offer valuable insights into the population distribution, species characteristics, and potential patterns within the Palmer penguin dataset. These observations can serve as a foundation for further exploratory data analysis and focused studies on species discrimination revealing a more possible in-depth species discrimination and potential to uncover additional key patterns.
+
+***
 ## Jupyter Notebook Implementation
 
 Please feel free to execute my *Jupyter notebook** to view the process and results of the tasks illustrated
@@ -154,6 +171,38 @@ Please feel free to execute my *Jupyter notebook** to view the process and resul
 3. Review the output and analysis within the notebook to verify the Collatz conjecture.
 4. Feel free to explore the code, modify parameters, or adapt it for different ranges as needed.
 
+## Table Of Contents
+
+### Task 1
+
+[Real Python](https://realpython.com/defining-your-own-python-function/)
+[Pythontutorial.net](https://www.pythontutorial.net/advanced-python/python-floor-division/)
+
+### Task 2
+
+[mwaskom/seaborn-data Github](https://github.com/mwaskom/)
+[Pandas Official documentation](pandas.pydata.org)
+[realpython.com](https://realpython.com/pandas-dataframe/)
+[SparkByExamples.com](https://sparkbyexamples.com/pandas/get-pandas-dataframe-shape/)
+["A Grahic Primer"](https://mathbench.umd.edu/modules/visualization_graph/page02.htm#:~:text=Scientists%20like%20to%20say%20that,left%20side%2C%20vertical%20one)
+[Laerd website](https://statistics.laerd.com/statistical-guides/types-of-variable.php/)
+
+### Task 3
+
+[Machine Learning & Simulation YouTube channel]( https://www.youtube.com/watch?v=421uW9aZHio)
+[ritvikmath YouTube channel]( https://www.youtube.com/watch?v=Dkc_hcVWDpA&t=3s)
+[Analytics Vidhya](https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/)
+
+### Task 4
+
+[StatQuest with Josh Starmer Youtube channel](https://www.youtube.com/@statquest)
+[Entropy (for data science)lecture](https://www.youtube.com/watch?v=YtebGVx-Fxw)
+
+### Task 5
+
+[Seaborn official documentation](https://seaborn.pydata.org/generated/seaborn.countplot.html)
+
 ***
 
+# The End
 </div>

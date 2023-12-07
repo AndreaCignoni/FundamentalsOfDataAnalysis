@@ -1,8 +1,12 @@
 <div align="justify"> 
 
-# Tasks: Fundamenentals Of Data Analysis
+# Assessment Repository
+
+by Andrea Cignoni
 
 ***
+
+# Part 1 : Tasks
 
 ## Task 1: Collatz Conjecture Verification
 
@@ -160,6 +164,7 @@ A pair plot was generated for continuous variables (**bill length**, **bill dept
 The visualisations offer valuable insights into the population distribution, species characteristics, and potential patterns within the Palmer penguin dataset. These observations can serve as a foundation for further exploratory data analysis and focused studies on species discrimination revealing a more possible in-depth species discrimination and potential to uncover additional key patterns.
 
 ***
+
 ## Jupyter Notebook Implementation
 
 Please feel free to execute my *Jupyter notebook** to view the process and results of the tasks illustrated
@@ -168,7 +173,7 @@ Please feel free to execute my *Jupyter notebook** to view the process and resul
 
 1. Open the *Jupyter notebook* using your preferred environment.
 2. Run the cells in sequential order to execute the Python code.
-3. Review the output and analysis within the notebook to verify the Collatz conjecture.
+3. Review the output and analysis within the notebook to verify the five tasks presented.
 4. Feel free to explore the code, modify parameters, or adapt it for different ranges as needed.
 
 ## Table Of Contents

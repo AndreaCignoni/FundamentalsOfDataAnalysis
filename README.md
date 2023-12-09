@@ -18,7 +18,7 @@ The *Collatz conjecture* is a famous unsolved problem in mathematics stating tha
 
 The function $f(x)$ is defined as follows:
 
-![!\[image\\](image.png)
+![!\[image\\](https://github.com/AndreaCignoni/FundamentalsOfDataAnalysis/blob/883d336e071f6d3b79a60383381ce08c091c97e9/img/Formula.png)
 
 ### Example
 

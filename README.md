@@ -165,6 +165,29 @@ The visualisations offer valuable insights into the population distribution, spe
 
 ***
 
+# Part 2 : Project 
+
+## Iris Dataset Analysis
+
+### Dataset Overview: Pandas Exploration
+
+The analysis starts with an overview of the famous Iris dataset using the Pandas library. This dataset is a popular choice in the field of machine learning and is often used for classification tasks and I have used Pandas to load, analyze, and manipulate the information contained in the CSV file downloaded, gaining insights into its structure and characteristics.
+
+### Exploratory Data Analysis: Plotting and Identifying Patterns
+
+**Entropy Formula for Weak Discrimination**
+In the exploratory data analysis phase of the project, I delve into the Iris dataset's features and target variables exploring the concept of entropy as a measure of information gain and use it to understand how well certain features can discriminate between different flower species.
+
+**If Boolean Statements for Linear Discrimination**
+To further understand the data, I have implemented conditional statements (if-else) to perform linear discrimination based on selected features. By applying these Boolean statements, it is possible to identify linear boundaries that can help classify Iris flowers into different species.
+
+### Machine Learning and Flower Species Prediction: Scikit-learn Library
+
+In the final phase of the project, I leverage the power of the Scikit-learn library to build machine learning models for flower species prediction.
+
+
+***
+
 ## Jupyter Notebook Implementation
 
 Please feel free to execute my *Jupyter notebook** to view the process and results of the tasks illustrated
@@ -243,6 +266,56 @@ Please feel free to execute my *Jupyter notebook** to view the process and resul
 [Seaborn official documentation](https://seaborn.pydata.org/generated/seaborn.countplot.html)
 
 - The official documentation for *Seaborn* introduces the countplot function, providing guidance on creating count plots for categorical data visualization using the *Seaborn* library.
+
+### Project
+
+[Towards Data Science](https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5)
+
+- This article provides a historical and biological background of the Iris dataset, offering insights into its origins and significance in the field of data science.
+
+[YouTube Iris Dataset EDA Lecture1@ Applied AI Course](https://www.youtube.com/watch?v=FLuqwQgSBDw).
+
+- This lecture proposes an explanatory analysis and interpretation of the dataset offering visual explanations, demonstrations and precious insights.
+
+[archive.ics.uci.edu](https://archive.ics.uci.edu/dataset/53/iris)
+
+- The official dataset repository where the Iris dataset can be found for download, along with detailed documentation.
+
+[pandas.pydata.org](https://pandas.pydata.org)
+
+- The official website for the Pandas library, which is commonly used for data manipulation and analysis in Python.
+
+[scikit-learn official documentation](https://scikit-learn.org/stable/)
+
+- The official documentation for Scikit-learn, a popular Python library for machine learning, including information on how to work with datasets like Iris.
+
+[Shane Lynn](https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/)
+
+- A blog post by Shane Lynn that covers summarizing, aggregating, and grouping data using Pandas, which could be relevant for Iris dataset analysis.
+
+[Real Python](https://realpython.com/python-enumerate/)
+
+- Real Python's guide on using the enumerate function in Python, a useful technique for iterating through data.
+
+[CopyProgramming](https://copyprogramming.com/howto/python-matplotlib-ax-set-xticks-size-code-example)
+
+- A tutorial on customizing the appearance of x-axis ticks in Matplotlib, which can be helpful for creating visually appealing plots.
+
+[nickmccullum](https://www.nickmccullum.com/python-visualization/histogram/)
+
+- Nick McCullum's guide on creating histograms in Python, which might be useful for visualizing Iris dataset distributions.
+
+[Analytics Yogi](https://vitalflux.com/python-creating-scatter-plot-with-iris-dataset/)
+
+- A tutorial on creating scatter plots with the Iris dataset in Python, demonstrating data visualization techniques.
+
+[seaborn.pydata.org](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+
+- The official documentation for Seaborn, a Python data visualization library, including information on creating pair plots with the Iris dataset.
+
+[Scikit-learn: Machine Learning in Python](https://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html), Pedregosa et al., JMLR 12, pp. 2825-2830, 2011
+
+- The academic paper introducing Scikit-learn, providing insights into the library's design and capabilities for machine learning in Python.
 
 ***
 

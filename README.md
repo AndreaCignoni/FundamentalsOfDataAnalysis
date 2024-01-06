@@ -105,16 +105,16 @@ In Task 3, the assignment consists in selecting an appropriate probability distr
 **Categorical Variables**
 
 - Species and Island:
-> The **Multinomial distribution** is suitable for the categorical variables *Species* and *Island,* capturing the probability distribution across multiple categories. 
+The **Multinomial distribution** is suitable for the categorical variables *Species* and *Island,* capturing the probability distribution across multiple categories. 
 + Sex:
->The **Binomial distribution** is chosen for the categorical variable *Sex,* which represents a binary outcome.
+The **Binomial distribution** is chosen for the categorical variable *Sex,* which represents a binary outcome.
 
 **Continuous Variables**
 
 * Bill Length, Bill Depth, Flipper Length:
->The observed bimodal pattern in the variables suggests the presence of distinct species within the dataset. Given the symmetric spread around the mean, a **Normal distribution** is chosen for modelling the first curve  of the *Bill Length* and both curves for the *Bill Depth* and the *Flipper Length*. The irregular second peak in the *Bill Length* variable is more appropriately modelled by a **Log-normal distribution** due to its specific characteristics.
+The observed bimodal pattern in the variables suggests the presence of distinct species within the dataset. Given the symmetric spread around the mean, a **Normal distribution** is chosen for modelling the first curve  of the *Bill Length* and both curves for the *Bill Depth* and the *Flipper Length*. The irregular second peak in the *Bill Length* variable is more appropriately modelled by a **Log-normal distribution** due to its specific characteristics.
 - Body Mass:
->The right-skewed histogram curves with elongated tails on the right side lead to the choice of a **log-normal distribution** for modeling the continuous variable *Body Mass.*
+The right-skewed histogram curves with elongated tails on the right side lead to the choice of a **log-normal distribution** for modeling the continuous variable *Body Mass.*
 
 ## Task 4: Probability, Expected Values, Surprise, and Entropy
 
